@@ -4,7 +4,7 @@ kind: ClusterConfiguration
 apiVersion: kubeadm.k8s.io/v1beta3
 #kubernetesVersion: v1.21.0
 networking:
-  podSubnet: 10.244.0.0/16
+  podSubnet: 10.211.0.0/16
 ---
 kind: KubeletConfiguration
 apiVersion: kubelet.config.k8s.io/v1beta1
