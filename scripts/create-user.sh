@@ -1,6 +1,6 @@
 #!/bin/bash
 groupadd ubuntu
-useradd -g ubuntu -G root -s /bin/bash -d /home/ubuntu ubuntu
+useradd -g ubuntu -G adm,sudo -s /bin/bash -d /home/ubuntu ubuntu
 mkdir -p /home/ubuntu
 cp -r /root/.ssh /home/ubuntu/.ssh
 chown -R ubuntu:ubuntu /home/ubuntu
